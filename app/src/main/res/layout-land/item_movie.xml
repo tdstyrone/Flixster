@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/gradient_background">
@@ -23,8 +24,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="7dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="24sp"
         android:textColor="#ffffff"
+        android:textSize="24sp"
         android:textStyle="bold"
         tools:text="Bill and Ted Face the Music" />
 
@@ -35,7 +36,7 @@
         android:layout_below="@+id/tvTitle"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
-        android:textColor="#ffffff"
         android:layout_toEndOf="@+id/ivPoster"
+        android:textColor="#ffffff"
         tools:text="Yet to fulfill their rock and roll destiny, the now middle-aged best friends Bill and Ted set out on a new adventure when a visitor from the future warns them that only their song can save life as we know it. Along the way, they are helped by their daughters, a new batch of historical figures and a few music legends—to seek the song that will set their world right and bring harmony to the universe." />
 </RelativeLayout>
